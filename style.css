@@ -177,3 +177,15 @@ body.blue-page #contact a {
     background-color: rgba(0, 0, 0, 0.05);
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    #about {
+        margin-top: 80px;
+        padding-top: 40px;
+    }
+
+    header {
+        position: relative;
+        z-index: 10;
+    }
+}
